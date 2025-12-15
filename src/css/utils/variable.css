@@ -2,11 +2,9 @@
     /* Couleurs */
     --light: oklch(1 0 0 / 1);
     --dark: rgb(0, 0, 0);
-    --yellow: rgba(253, 206, 83, 1);
-    --red: rgba(251, 110, 110, 1);
-    --blue: rgba(97, 137, 173, 1);
-    --navyblue: rgba(68, 107, 141, 1);
-    --white-btn: rgba(243, 246, 250, 1);
+    --lightblue: rgba(99, 115, 192, 1);
+    --lightpurple: rgba(99, 79, 162, 1);
+    --navyblue: rgba(34, 28, 53, 1);
 
     --gray-100: oklch(0.9677 0 0 / 1);
     --gray-200: oklch(0.9176 0 0 / 1);
@@ -19,8 +17,8 @@
     --gray-900: oklch(0.1371 0 0 / 1);
 
     /* Polices de caractère */
-    --font-mono: "Anonymous Pro", monospace;
-    --font-important: "Barrio", cursive;
+    --font-mono: "IBM Plex Mono", monospace;
+    --font-important: "Elsie Swash Caps", cursive;
 
     /* Tailles de texte */
     --text-sm: 0.875rem;
@@ -35,8 +33,6 @@
     /* 24px */
     --text-3xl: 1.875rem;
     /* 30px */
-    --text-miniheader: 2rem;
-    /* 32px */
     --text-4xl: 2.25rem;
     /* 36px */
     --text-5xl: 3rem;
@@ -45,8 +41,6 @@
     /* 60px */
     --text-7xl: 4.5rem;
     /* 72px */
-    --text-error: 10rem;
-    /* 160px */
 
     /* Espaces */
     --space-sm: 0.125rem;
@@ -73,6 +67,4 @@
     /* 48px */
     --space-6xl: 3.25rem;
     /* 52px */
-    --space-texthero: 5rem;
-    /* 80px */
 }
