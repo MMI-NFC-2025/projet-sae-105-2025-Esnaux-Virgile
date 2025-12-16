@@ -1,0 +1,116 @@
+.menu {
+    position: fixed;
+    top: var(--space-xl);
+    right: var(--space-xl);
+    z-index: 1001;
+}
+
+.menu__toggle {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1002;
+    position: fixed;
+    top: var(--space-xl);
+    right: var(--space-xl);
+}
+
+.menu__toggle::before {
+    content: "☰";
+    font-size: 2.5rem;
+    color: var(--light);
+}
+
+.menu__toggle.active::before {
+    content: "✕";
+}
+
+.menu__overlay {
+    position: fixed;
+    top: 6.125rem;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 6.125rem);
+    background-color: var(--navyblue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--space-3xl) var(--space-xl) var(--space-6xl) var(--space-xl);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: all 0.3s ease;
+    z-index: 99;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.menu__overlay.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.menu__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+}
+
+.menu__button {
+    display: flex;
+    align-items: center;
+    gap: var(--space-lg);
+    background-color: rgba(99, 79, 162, 0.3);
+    color: var(--light);
+    font-family: var(--font-mono);
+    font-size: var(--text-base);
+    padding: var(--space-md) var(--space-xl);
+    border-radius: var(--space-md);
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    white-space: nowrap;
+}
+
+.menu__button:hover {
+    background-color: var(--lightpurple);
+}
+
+.menu__icon {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: var(--space-sm);
+    flex-shrink: 0;
+}
+
+.menu__button span {
+    flex: 1;
+}
+
+.menu__footer {
+    margin-top: var(--space-4xl);
+    padding-top: var(--space-2xl);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    width: fit-content;
+    text-align: left;
+}
+
+.menu__footer-link {
+    display: block;
+    color: var(--light);
+    font-family: var(--font-mono);
+    font-size: var(--text-sm);
+    padding: var(--space-md) 0;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.menu__footer-link:hover {
+    color: var(--lightblue);
+}

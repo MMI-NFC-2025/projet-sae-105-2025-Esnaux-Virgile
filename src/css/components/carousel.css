@@ -1,0 +1,15 @@
+.carousel {
+    width: 100%;
+    overflow-x: auto;
+    padding-bottom: var(--space-4xl);
+    padding-top: var(--space-4xl);
+    margin-bottom: 5rem;
+    background-color: var(--lightpurple);
+}
+
+.carousel__container {
+    display: flex;
+    gap: var(--space-2xl);
+    padding: var(--space-lg);
+    font-family: var(--font-mono);
+}

@@ -1,0 +1,28 @@
+.card {
+    min-width: 15rem;
+    max-width: 15rem;
+    height: 25rem;
+    background-color: var(--navyblue);
+    color: var(--light);
+    padding-left: var(--space-lg);
+    padding-right: var(--space-lg);
+    border-radius: var(--space-xl);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card__title {
+    font-family: var(--font-important);
+    font-size: var(--text-xl);
+    padding-bottom: var(--space-lg);
+    padding-top: var(--space-lg);
+}
+
+.card img {
+    width: 100%;
+    height: 11rem;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+    transform: scale(1.2)
+}
