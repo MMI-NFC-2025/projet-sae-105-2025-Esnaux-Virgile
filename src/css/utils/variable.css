@@ -17,7 +17,7 @@
     --gray-900: oklch(0.1371 0 0 / 1);
 
     /* Polices de caractère */
-    --font-mono: "IBM Plex Mono", monospace;
+    --font-mono: "IBM Plex Mono";
     --font-important: "Elsie Swash Caps", cursive;
 
     /* Tailles de texte */
