@@ -1,6 +1,6 @@
 .menu {
     position: fixed;
-    top: var(--space-xl);
+    top: var(--space-3xl);
     right: var(--space-xl);
     z-index: 1001;
 }
@@ -11,18 +11,19 @@
     cursor: pointer;
     z-index: 1002;
     position: fixed;
-    top: var(--space-xl);
+    top: var(--space-3xl);
     right: var(--space-xl);
 }
 
 .menu__toggle::before {
     content: "☰";
     font-size: 2.5rem;
-    color: var(--light);
+    color: var(--gray-300);
 }
 
 .menu__toggle.active::before {
     content: "✕";
+    color: var(--gray-300);
 }
 
 .menu__overlay {
@@ -52,9 +53,13 @@
     transform: translateY(0);
 }
 
+body.menu-open {
+    overflow: hidden !important;
+}
+
 .menu__list {
     list-style: none;
-    padding: 0;
+    padding: 0 var(--space-6xl);
     margin: 0;
     width: fit-content;
     display: flex;
@@ -65,32 +70,51 @@
 .menu__button {
     display: flex;
     align-items: center;
-    gap: var(--space-lg);
+    justify-content: center;
     background-color: rgba(99, 79, 162, 0.3);
+    background-position: center;
     color: var(--light);
     font-family: var(--font-mono);
     font-size: var(--text-base);
-    padding: var(--space-md) var(--space-xl);
-    border-radius: var(--space-md);
+    padding: var(--space-xl);
     text-decoration: none;
-    transition: background-color 0.3s ease;
-    white-space: nowrap;
+    transition: all 0.3s ease;
+    width: 15rem;
+    height: 4rem;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: var(--space-base);
+}
+
+.menu__button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(34, 28, 53, 0.7);
+    z-index: 1;
+}
+
+.menu__button:hover::before {
+    background-color: rgba(99, 79, 162, 0.8);
 }
 
 .menu__button:hover {
-    background-color: var(--lightpurple);
+    transform: scale(1.02);
 }
 
 .menu__icon {
-    width: 80px;
-    height: 80px;
-    object-fit: cover;
-    border-radius: var(--space-sm);
-    flex-shrink: 0;
+    display: none;
 }
 
 .menu__button span {
-    flex: 1;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .menu__footer {
@@ -99,6 +123,8 @@
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     width: fit-content;
     text-align: left;
+    align-self: flex-start;
+    margin-right: 9rem;
 }
 
 .menu__footer-link {
