@@ -21,8 +21,9 @@
                 </div>
             </div>
         </section>
-        <div class="language-selector">
-            <a href="/en/" class="language-selector__link language-selector__link--active">FR</a>
+        <div class="language-selector" role="navigation" aria-label="Sélecteur de langue">
+            <a href="/en/" class="language-selector__link language-selector__link--active"
+                aria-label="Passer à la version anglaise">FR</a>
         </div>
     </header>
 
@@ -33,8 +34,8 @@
             <span class="menu__bar"></span>
         </button>
 
-        <div class="menu__overlay">
-            <ul class="menu__list">
+        <div class="menu__overlay" role="dialog" aria-label="Menu de navigation principal">
+            <ul class="menu__list" role="menu">
                 <li>
                     <a href="index.html" class="menu__button"
                         style="background-image: url('/assets/img/hero_page_accueil2.avif')">
@@ -73,11 +74,14 @@
                 </li>
             </ul>
 
-            <div class="menu__footer">
-                <a href="glossaire.html" class="menu__footer-link">Glossaire</a>
-                <a href="contact.html" class="menu__footer-link">Contactez-nous</a>
-                <a href="a-propos.html" class="menu__footer-link">À propos</a>
-                <a href="infos-pratiques.html" class="menu__footer-link">Autres projets</a>
+            <div class="menu__footer" role="navigation" aria-label="Liens secondaires">
+                <a href="glossaire.html" class="menu__footer-link" aria-label="Consulter le glossaire">Glossaire</a>
+                <a href="contact.html" class="menu__footer-link"
+                    aria-label="Accéder au formulaire de contact">Contactez-nous</a>
+                <a href="a-propos.html" class="menu__footer-link" aria-label="En savoir plus à propos du projet">À
+                    propos</a>
+                <a href="infos-pratiques.html" class="menu__footer-link" aria-label="Découvrir d'autres projets">Autres
+                    projets</a>
             </div>
         </div>
     </nav>
@@ -122,55 +126,59 @@
         </section>
         <section class="carousel">
             <div class="carousel__container">
-                <a href="adalovelace.html" aria-label="Lien vers l'article sur Ada Lovelace">
-                    <article class="card">
-                        <img src="/assets/img/card1.avif" alt="Première carte du carousel">
+                <a href="adalovelace.html" aria-label="Lire l'article sur Ada Lovelace">
+                    <article class="card" role="article" aria-labelledby="card-title-1">
+                        <img src="/assets/img/card1.avif" alt="Illustration pour l'article Ada Lovelace" loading="lazy">
                         <div class="card__content">
-                            <h3 class="card__title">Ada Lovelace</h3>
+                            <h3 class="card__title" id="card-title-1">Ada Lovelace</h3>
                             <p class="card__text">Découvrez la vie et les contributions d'Ada Lovelace, pionnière de
                                 l'informatique.</p>
                         </div>
                     </article>
                 </a>
 
-                <a href="effetmatilda.html" aria-label="Lien vers l'article sur l'effet Matilda">
-                    <article class="card">
-                        <img src="/assets/img/card2.avif" alt="Deuxième carte du carousel">
+                <a href="effetmatilda.html" aria-label="Lire l'article sur l'effet Matilda">
+                    <article class="card" role="article" aria-labelledby="card-title-2">
+                        <img src="/assets/img/card2.avif" alt="Illustration pour l'article sur l'effet Matilda"
+                            loading="lazy">
                         <div class="card__content">
-                            <h3 class="card__title">L'Effet Matilda</h3>
+                            <h3 class="card__title" id="card-title-2">L'Effet Matilda</h3>
                             <p class="card__text">Découvrez les implications de l'effet Matilda, un biais historique qui
                                 a minimisé les contributions des femmes scientifiques.</p>
                         </div>
                     </article>
                 </a>
 
-                <a href="scienceada.html" aria-label="Lien vers l'article sur la science d'Ada Lovelace">
-                    <article class="card">
-                        <img src="/assets/img/card3.avif" alt="Troisième carte du carousel">
+                <a href="scienceada.html" aria-label="Lire l'article sur la science d'Ada Lovelace">
+                    <article class="card" role="article" aria-labelledby="card-title-3">
+                        <img src="/assets/img/card3.avif" alt="Illustration pour l'article sur la science d'Ada"
+                            loading="lazy">
                         <div class="card__content">
-                            <h3 class="card__title">La science d'Ada</h3>
+                            <h3 class="card__title" id="card-title-3">La science d'Ada</h3>
                             <p class="card__text">Découvrez les inventions d'Ada Lovelace et son impact sur
                                 l'informatique moderne.</p>
                         </div>
                     </article>
                 </a>
 
-                <a href="theimitationgame.html" aria-label="Lien vers l'article sur The Imitation Game">
-                    <article class="card">
-                        <img src="/assets/img/card4.avif" alt="Quatrième carte du carousel">
+                <a href="theimitationgame.html" aria-label="Lire l'article sur The Imitation Game">
+                    <article class="card" role="article" aria-labelledby="card-title-4">
+                        <img src="/assets/img/card4.avif" alt="Illustration pour l'article sur The Imitation Game"
+                            loading="lazy">
                         <div class="card__content">
-                            <h3 class="card__title">The Imitation Game</h3>
+                            <h3 class="card__title" id="card-title-4">The Imitation Game</h3>
                             <p class="card__text">Découvrez le film "The Imitation Game", qui raconte l'histoire d'Alan
                                 Turing et de la machine de décryptage pendant la Seconde Guerre mondiale.</p>
                         </div>
                     </article>
                 </a>
 
-                <a href="litterature.html" aria-label="Lien vers l'article sur Ada dans la littérature">
-                    <article class="card">
-                        <img src="/assets/img/card5.avif" alt="Cinquième carte du carousel">
+                <a href="litterature.html" aria-label="Lire l'article sur Ada dans la littérature">
+                    <article class="card" role="article" aria-labelledby="card-title-5">
+                        <img src="/assets/img/card5.avif" alt="Illustration pour l'article sur Ada dans la littérature"
+                            loading="lazy">
                         <div class="card__content">
-                            <h3 class="card__title">Ada dans la littérature</h3>
+                            <h3 class="card__title" id="card-title-5">Ada dans la littérature</h3>
                             <p class="card__text">L'histoire d'Ada Lovelace a inspiré de nombreux ouvrages littéraires
                                 et biographies.</p>
                         </div>

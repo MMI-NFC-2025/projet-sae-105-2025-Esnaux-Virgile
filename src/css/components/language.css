@@ -11,7 +11,7 @@
 }
 
 .language-selector__link {
-    color: var(--light);
+    color: var(--gray-200);
     font-family: var(--font-mono);
     font-size: var(--text-base);
     text-decoration: none;

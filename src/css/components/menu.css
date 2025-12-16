@@ -18,12 +18,29 @@
 .menu__toggle::before {
     content: "☰";
     font-size: 2.5rem;
-    color: var(--gray-300);
+    color: var(--gray-200);
+    display: block;
+    transition: opacity 0.25s ease, transform 0.25s ease;
 }
 
 .menu__toggle.active::before {
     content: "✕";
-    color: var(--gray-300);
+    color: var(--gray-200);
+    opacity: 0;
+    transform: rotate(90deg) scale(0.8);
+    animation: fadeInRotate 0.3s ease forwards;
+}
+
+@keyframes fadeInRotate {
+    0% {
+        opacity: 0;
+        transform: rotate(90deg) scale(0.8);
+    }
+
+    100% {
+        opacity: 1;
+        transform: rotate(0deg) scale(1);
+    }
 }
 
 .menu__overlay {
@@ -39,8 +56,8 @@
     padding: var(--space-3xl) var(--space-xl) var(--space-6xl) var(--space-xl);
     opacity: 0;
     visibility: hidden;
-    transform: translateY(-20px);
-    transition: all 0.3s ease;
+    transform: translateY(-20px) scale(0.95);
+    transition: opacity 0.4s ease, transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), visibility 0.4s;
     z-index: 99;
     overflow-y: auto;
     overflow-x: hidden;
@@ -50,7 +67,7 @@
 .menu__overlay.active {
     opacity: 1;
     visibility: visible;
-    transform: translateY(0);
+    transform: translateY(0) scale(1);
 }
 
 body.menu-open {
@@ -65,6 +82,41 @@ body.menu-open {
     display: flex;
     flex-direction: column;
     gap: var(--space-md);
+}
+
+.menu__list li {
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.menu__overlay.active .menu__list li {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.menu__overlay.active .menu__list li:nth-child(1) {
+    transition-delay: 0.1s;
+}
+
+.menu__overlay.active .menu__list li:nth-child(2) {
+    transition-delay: 0.15s;
+}
+
+.menu__overlay.active .menu__list li:nth-child(3) {
+    transition-delay: 0.2s;
+}
+
+.menu__overlay.active .menu__list li:nth-child(4) {
+    transition-delay: 0.25s;
+}
+
+.menu__overlay.active .menu__list li:nth-child(5) {
+    transition-delay: 0.3s;
+}
+
+.menu__overlay.active .menu__list li:nth-child(6) {
+    transition-delay: 0.35s;
 }
 
 .menu__button {
