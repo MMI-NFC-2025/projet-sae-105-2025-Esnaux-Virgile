@@ -40,3 +40,16 @@
 .header_logo-ada img {
     display: block;
 }
+
+.header__title {
+    position: fixed;
+    top: var(--space-4xl);
+    left: 65%;
+    transform: translateX(-50%);
+    z-index: 101;
+    font-family: var(--font-important);
+    font-size: var(--text-xl);
+    color: var(--gray-200);
+    margin: 0;
+    font-weight: normal;
+}
