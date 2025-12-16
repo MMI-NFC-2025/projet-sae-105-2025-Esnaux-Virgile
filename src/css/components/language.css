@@ -21,14 +21,3 @@
 .language-selector__link:hover {
     opacity: 0.7;
 }
-
-.language-selector__link--active {
-    font-weight: lighter;
-    text-decoration: none;
-}
-
-.language-selector__separator {
-    color: var(--light);
-    font-family: var(--font-mono);
-    font-size: var(--text-base);
-}
