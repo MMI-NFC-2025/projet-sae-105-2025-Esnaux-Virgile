@@ -53,3 +53,17 @@
     margin: 0;
     font-weight: normal;
 }
+
+.header__minititle {
+    position: fixed;
+    top: var(--space-3xl);
+    left: 65%;
+    top: var(--space-4xl);
+    transform: translateX(-50%);
+    z-index: 101;
+    font-family: var(--font-important);
+    font-size: var(--text-base);
+    color: var(--gray-200);
+    margin: 0;
+    font-weight: normal;
+}
