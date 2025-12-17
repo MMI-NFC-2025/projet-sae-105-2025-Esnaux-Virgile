@@ -69,15 +69,17 @@ a:focus {
     font-size: var(--text-base);
     margin-top: var(--space-2xl);
     margin-bottom: var(--space-2xl);
-    margin-left: var(--space-sm);
+    margin-left: var(--space-lg);
 }
 
 .textmono-content {
+
     font-family: var(--font-mono);
     font-size: var(--text-sm);
     margin-bottom: var(--space-3xl);
     font-weight: lighter;
-    margin-left: var(--space-sm);
+    margin-left: var(--space-lg);
+    margin-right: var(--space-lg);
 }
 
 .image__representation {
