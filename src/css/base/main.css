@@ -12,7 +12,6 @@
 
 .citation {
     width: 100%;
-    color: var(--navyblue);
     text-align: center;
     font-family: var(--font-important);
     font-size: var(--text-3xl);
@@ -63,4 +62,20 @@ a {
 
 a:focus {
     outline: none;
+}
+
+.textmono-title {
+    font-family: var(--font-mono);
+    font-size: var(--text-base);
+    margin-top: var(--space-2xl);
+    margin-bottom: var(--space-2xl);
+    margin-left: var(--space-base);
+}
+
+.textmono-content {
+    font-family: var(--font-mono);
+    font-size: var(--text-sm);
+    margin-bottom: var(--space-3xl);
+    font-weight: lighter;
+    margin-left: var(--space-base);
 }
