@@ -8,6 +8,10 @@
     background-color: var(--navyblue);
 }
 
+.body--autresprojets {
+    background-color: var(--navyblue);
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;

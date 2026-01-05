@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A Propos</title>
+    <title>Autres Projets</title>
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps&display=swap">
 </head>
 
-<body>
+<body class="body--autresprojets">
     <header>
         <section class="header_logo">
             <div class="header_logo-block">
@@ -21,7 +21,7 @@
                 </div>
             </div>
         </section>
-        <h1 class="header__title">À Propos</h1>
+        <h1 class="header__title">Autres <br> Projets</h1>
         <div class="language-selector" role="navigation" aria-label="Sélecteur de langue">
             <a href="/en/" class="language-selector__link language-selector__link--active"
                 aria-label="Passer à la version anglaise">FR</a>
@@ -88,27 +88,37 @@
     </nav>
 
     <main>
-        <section class="hero">
-            <div class="hero__effet">
-                <img src="/assets/img/hero_page_Apropos.avif" alt="Hero de la page à propos">
-            </div>
+        <section class="hero--glossaire">
         </section>
-        <section class="text-blue">
-            <div class="text-blue__content">
-                <p> Ce site a été créé par Virgile Esnaux dans le cadre d’un projet pédagogique réalisé en 2025 au
-                    département MMI de Montbéliard.
-                    Ce travail s’inscrit dans une réflexion sur l’effet Matilda, phénomène historique qui révèle la
-                    tendance à minimiser ou invisibiliser les contributions des femmes dans les sciences et les
-                    technologies.
-                </p>
-                <br>
-                <p>
-                    Le choix d’Ada Lovelace comme sujet central s’est imposé comme une évidence, car elle incarne
-                    parfaitement cette lutte contre l’oubli : première programmeuse de l’histoire et visionnaire de
-                    l’informatique, Ada Lovelace a longtemps vu ses travaux éclipsés par ceux de ses homologues
-                    masculins. Ce projet vise à mettre en lumière son héritage intellectuel, à mieux comprendre les
-                    enjeux d’égalité dans la reconnaissance scientifique et à inspirer les générations futures par le
-                    récit d’une femme pionnière.</p>
+        <section class="Texte__principal-glossaire">
+            <div class="navyblue__block">
+                <div class="textmono-title--glossaire">Algorithme :</div>
+                <p>Suite d’instructions ou de règles précises permettant d’effectuer une tâche ou de résoudre un
+                    problème.</p>
+                <div class="textmono-title--glossaire">Charles Babbage :</div>
+                <p>Mathématicien et inventeur britannique du XIXe siècle, considéré comme le père des ordinateurs. Il a
+                    imaginé et conçu la machine analytique, ancêtre des ordinateurs modernes, avec l’aide intellectuelle
+                    d’Ada Lovelace.</p>
+                <div class="textmono-title--glossaire">Machine Analytique :</div>
+                <p>Projet de machine à calculer programmable inventé par Charles Babbage. Cette machine aurait pu
+                    exécuter des algorithmes grâce à des cartes perforées, et Ada Lovelace a formalisé le concept de
+                    programme informatique pour cet appareil.</p>
+                <div class="textmono-title--glossaire">Nombres de Bernoulli :</div>
+                <p>Suite de nombres rationnels étudiés en mathématiques, notamment lors du calcul de certaines sommes
+                    algébriques. Ada Lovelace a créé un algorithme permettant à la machine analytique de calculer les
+                    nombres de Bernoulli, ce qui constitue le premier programme informatique connu.</p>
+                <div class="textmono-title--glossaire">Alan Turing :</div>
+                <p>Mathématicien et logicien britannique du XXe siècle, figure clé de l’intelligence artificielle et de
+                    la cryptanalyse. Il a reconnu l’importance des travaux d’Ada Lovelace et s’est inspiré de ses
+                    réflexions pour développer la théorie de la machine de Turing, base de l’informatique moderne.</p>
+                <div class="textmono-title--glossaire">Joan Clarke:</div>
+                <p>Mathématicienne et cryptanalyste britannique qui a collaboré avec Alan Turing pour décrypter le code
+                    Enigma durant la Seconde Guerre mondiale. Comme Ada Lovelace, elle a longtemps été méconnue dans
+                    l’histoire des sciences malgré ses contributions majeures.</p>
+                <div class="textmono-title--glossaire">Jean C. Baudet:</div>
+                <p>Philosophe, historien et écrivain belge, spécialiste de l’histoire des sciences et des techniques.
+                    Dans ses travaux, il analyse la naissance de l’informatique, l’évolution des concepts de machines et
+                    la reconnaissance de figures clés comme Ada Lovelace.</p>
             </div>
         </section>
     </main>
