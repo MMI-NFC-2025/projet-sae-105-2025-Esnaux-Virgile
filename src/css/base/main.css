@@ -4,6 +4,10 @@
     margin-bottom: var(--space-6xl);
 }
 
+.body--glossaire {
+    background-color: var(--navyblue);
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;

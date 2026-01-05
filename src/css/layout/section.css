@@ -260,3 +260,16 @@
     width: 100%;
     box-sizing: border-box;
 }
+
+.textmono-title--glossaire {
+    font-family: var(--font-mono);
+    font-size: var(--text-xl);
+    margin-bottom: var(--space-2xl);
+    padding-top: var(--space-2xl);
+}
+
+.hero--glossaire {
+    width: 100%;
+    padding-top: 3rem;
+    margin-bottom: var(--space-6xl);
+}
