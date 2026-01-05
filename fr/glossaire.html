@@ -1,27 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Littérature</title>
-    <link rel="stylesheet" href="src/css/style.css">
+    <title>Glossaire</title>
+    <link rel="stylesheet" href="../src/css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps&display=swap">
 </head>
 
-<body>
+<body class="body--glossaire">
     <header>
         <section class="header_logo">
             <div class="header_logo-block">
-                <img class="header_logo-image" src="/assets/img/Logo_header.avif" alt="Image de Ada Lovelace">
+                <img class="header_logo-image" src="../assets/img/Logo_header.avif" alt="Image de Ada Lovelace">
                 <div class="header_logo-composant"></div>
                 <div class="header_logo-ada">
-                    <a href="index.html"><img src="/assets/img/logo ADA.svg" alt="Image du logo de Ada Lovelace "></a>
+                    <a href="index.html"><img src="../assets/img/logo ADA.svg" alt="Image du logo de Ada Lovelace "></a>
                 </div>
             </div>
         </section>
-        <h1 class="header__minititle">Ada dans la <br> littérature</h1>
+        <h1 class="header__title">Glossaire</h1>
         <div class="language-selector" role="navigation" aria-label="Sélecteur de langue">
             <a href="/en/" class="language-selector__link language-selector__link--active"
                 aria-label="Passer à la version anglaise">FR</a>
@@ -39,37 +39,37 @@
             <ul class="menu__list" role="menu">
                 <li>
                     <a href="index.html" class="menu__button"
-                        style="background-image: url('/assets/img/hero_page_accueil2.avif')">
+                        style="background-image: url('../assets/img/hero_page_accueil2.avif')">
                         <span>Page d'accueil</span>
                     </a>
                 </li>
                 <li>
                     <a href="adalovelace.html" class="menu__button"
-                        style="background-image: url('/assets/img/card1.avif')">
+                        style="background-image: url('../assets/img/card1.avif')">
                         <span>Ada Lovelace</span>
                     </a>
                 </li>
                 <li>
                     <a href="effetmatilda.html" class="menu__button"
-                        style="background-image: url('/assets/img/card2.avif')">
+                        style="background-image: url('../assets/img/card2.avif')">
                         <span>L'effet Matilda</span>
                     </a>
                 </li>
                 <li>
                     <a href="scienceada.html" class="menu__button"
-                        style="background-image: url('/assets/img/card3.avif')">
+                        style="background-image: url('../assets/img/card3.avif')">
                         <span>La science d'Ada</span>
                     </a>
                 </li>
                 <li>
                     <a href="theimitationgame.html" class="menu__button"
-                        style="background-image: url('/assets/img/card4.avif')">
+                        style="background-image: url('../assets/img/card4.avif')">
                         <span>The Imitation Game</span>
                     </a>
                 </li>
                 <li>
                     <a href="litterature.html" class="menu__button"
-                        style="background-image: url('/assets/img/card5.avif')">
+                        style="background-image: url('../assets/img/card5.avif')">
                         <span>Ada dans la littérature</span>
                     </a>
                 </li>
@@ -88,36 +88,44 @@
     </nav>
 
     <main>
-        <section class="hero-imitationgame">
-            <div class="hero__imitation">
-                <img src="/assets/img/hero_page_Litterature.avif" alt="Hero de la page de Ada dans la littérature">
-            </div>
+        <section class="hero--glossaire">
         </section>
-        <section class="section__title">
-            <h2>Pourquoi ce livre est-il en lien avec Ada et l’effet Matilda ?</h2>
-        </section>
-        <section class="Texte__principal-science">
+        <section class="Texte__principal-glossaire">
             <div class="navyblue__block">
-                <div class="textmono-title">De quoi parle le livre?</div>
-                <p>Le livre "Une histoire de la science au féminin" de Jean C. Baudet présente Ada Lovelace comme la
-                    première programmeuse informatique. En 1843, elle traduit un article sur la machine analytique de
-                    Charles Babbage et y ajoute ses propres notes, créant le premier algorithme destiné à une machine.
-                    Son travail, pourtant révolutionnaire, est resté longtemps méconnu et attribué à des hommes.</p>
-            </div>
-        </section>
-        <section class="info-box">
-            <h3 class="info-box__title">De plus, </h3>
-            <div class="info-box__content">
-                <p>Le livre ne parle pas seulement d’Ada Lovelace. Il raconte aussi l’histoire d’une quarantaine de
-                    femmes scientifiques qui ont marqué leur époque, malgré le fait que leurs contributions aient
-                    souvent été minimisées ou oubliées au profit des hommes.</p>
+                <div class="textmono-title--glossaire">Algorithme :</div>
+                <p>Suite d’instructions ou de règles précises permettant d’effectuer une tâche ou de résoudre un
+                    problème.</p>
+                <div class="textmono-title--glossaire">Charles Babbage :</div>
+                <p>Mathématicien et inventeur britannique du XIXe siècle, considéré comme le père des ordinateurs. Il a
+                    imaginé et conçu la machine analytique, ancêtre des ordinateurs modernes, avec l’aide intellectuelle
+                    d’Ada Lovelace.</p>
+                <div class="textmono-title--glossaire">Machine Analytique :</div>
+                <p>Projet de machine à calculer programmable inventé par Charles Babbage. Cette machine aurait pu
+                    exécuter des algorithmes grâce à des cartes perforées, et Ada Lovelace a formalisé le concept de
+                    programme informatique pour cet appareil.</p>
+                <div class="textmono-title--glossaire">Nombres de Bernoulli :</div>
+                <p>Suite de nombres rationnels étudiés en mathématiques, notamment lors du calcul de certaines sommes
+                    algébriques. Ada Lovelace a créé un algorithme permettant à la machine analytique de calculer les
+                    nombres de Bernoulli, ce qui constitue le premier programme informatique connu.</p>
+                <div class="textmono-title--glossaire">Alan Turing :</div>
+                <p>Mathématicien et logicien britannique du XXe siècle, figure clé de l’intelligence artificielle et de
+                    la cryptanalyse. Il a reconnu l’importance des travaux d’Ada Lovelace et s’est inspiré de ses
+                    réflexions pour développer la théorie de la machine de Turing, base de l’informatique moderne.</p>
+                <div class="textmono-title--glossaire">Joan Clarke:</div>
+                <p>Mathématicienne et cryptanalyste britannique qui a collaboré avec Alan Turing pour décrypter le code
+                    Enigma durant la Seconde Guerre mondiale. Comme Ada Lovelace, elle a longtemps été méconnue dans
+                    l’histoire des sciences malgré ses contributions majeures.</p>
+                <div class="textmono-title--glossaire">Jean C. Baudet:</div>
+                <p>Philosophe, historien et écrivain belge, spécialiste de l’histoire des sciences et des techniques.
+                    Dans ses travaux, il analyse la naissance de l’informatique, l’évolution des concepts de machines et
+                    la reconnaissance de figures clés comme Ada Lovelace.</p>
             </div>
         </section>
     </main>
     <footer class="footer" role="contentinfo">
         <div class="footer__left">
             <div class="footer__logo">
-                <a href="index.html"><img src="/assets/img/logo ADA.svg" alt="Image du logo de Ada Lovelace "></a>
+                <a href="index.html"><img src="../assets/img/logo ADA.svg" alt="Image du logo de Ada Lovelace "></a>
             </div>
             <div class="footer__leftelement">
                 <p>CONTACT</p>
@@ -142,11 +150,11 @@
             <div class="footer__division"></div>
             <a href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/" target="_blank"
                 class="footer__logoMMi" aria-label="Visiter le site du département MMi (nouvelle fenêtre)">
-                <img src="/assets/img/MMI_logo.svg" alt="Logo MMi">
+                <img src="../assets/img/MMI_logo.svg" alt="Logo MMi">
             </a>
         </div>
     </footer>
-    <script src="src/js/script.js"></script>
+    <script src="../src/js/script.js"></script>
 </body>
 
 </html>

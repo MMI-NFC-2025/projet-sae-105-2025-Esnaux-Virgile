@@ -133,3 +133,7 @@ a:focus {
 .text__main {
     padding-left: var(--space-lg);
 }
+
+.hero-space {
+    height: 4.5rem;
+}
