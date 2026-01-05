@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../src/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps&display=swap">
+</head>
+
+<body>
+    <header>
+        <section class="header_logo">
+            <div class="header_logo-block">
+                <img class="header_logo-image" src="../assets/img/Logo_header.avif" alt="Image de Ada Lovelace">
+                <div class="header_logo-composant"></div>
+                <div class="header_logo-ada">
+                    <a href="index.html"><img src="../assets/img/logo ADA.svg" alt="Image du logo de Ada Lovelace "></a>
+                </div>
+            </div>
+        </section>
+        <div class="language-selector" role="navigation" aria-label="Sélecteur de langue">
+            <a href="/fr/" class="language-selector__link language-selector__link--active"
+                aria-label="Passer à la version française">EN</a>
+        </div>
+    </header>
+
+    <nav class="menu">
+        <button class="menu__toggle" aria-label="Open menu">
+            <span class="menu__bar"></span>
+            <span class="menu__bar"></span>
+            <span class="menu__bar"></span>
+        </button>
+
+        <div class="menu__overlay" role="dialog" aria-label="Main navigation menu">
+            <ul class="menu__list" role="menu">
+                <li>
+                    <a href="index.html" class="menu__button"
+                        style="background-image: url('../assets/img/hero_page_accueil2.avif')">
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="adalovelace.html" class="menu__button"
+                        style="background-image: url('../assets/img/card1.avif')">
+                        <span>Ada Lovelace</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="effetmatilda.html" class="menu__button"
+                        style="background-image: url('../assets/img/card2.avif')">
+                        <span> The Matilda Effect</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="scienceada.html" class="menu__button"
+                        style="background-image: url('../assets/img/card3.avif')">
+                        <span>Science from Ada</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="theimitationgame.html" class="menu__button"
+                        style="background-image: url('../assets/img/card4.avif')">
+                        <span>The Imitation Game</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="litterature.html" class="menu__button"
+                        style="background-image: url('../assets/img/card5.avif')">
+                        <span>Ada in the litterature</span>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="menu__footer" role="navigation" aria-label="Liens secondaires">
+                <a href="glossaire.html" class="menu__footer-link" aria-label="Consulter le glossaire">Glossary</a>
+                <a href="contact.html" class="menu__footer-link"
+                    aria-label="Accéder au formulaire de contact">Contactez-us</a>
+                <a href="a-propos.html" class="menu__footer-link"
+                    aria-label="En savoir plus à propos du projet">About</a>
+                <a href="autres-projets.html" class="menu__footer-link" aria-label="Découvrir d'autres projets">Other
+                    projects</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <h1 class="visually-hidden">Home page of Ada Lovelace</h1>
+        <section class="hero">
+            <div class="hero__accueil">
+                <img src="../assets/img/hero_page_accueil.avif" alt="Hero of the home page">
+            </div>
+        </section>
+        <section class="citation">
+            <blockquote>
+                <p>“ This brain that is mine is something more than merely mortal, as time will show. ”</p>
+            </blockquote>
+        </section>
+        <h2 class="citation__personne">Quote from Ada Lovelace</h2>
+        <section class="Texte__principal-accueil">
+            <div class="navyblue__block">
+                <p>Women have always played a crucial role in science, yet their contributions have frequently been
+                    minimized, forgotten, or wrongly attributed to male colleagues. This historical injustice, still
+                    perceptible today, fuels a persistent underrepresentation of women in research and in the media
+                    coverage of their discoveries.
+                <p>Among these forgotten figures, Ada Lovelace stands out as a major pioneer. Born in 1815, she is the
+                    daughter of the famous poet Lord Byron and a mother passionate about mathematics, who instills in
+                    her an early taste for the sciences. Ada Lovelace trains with great mathematicians of her time,
+                    including Charles Babbage, inventor of the analytical engine, an ancestor of the modern computer.
+                </p>
+            </div>
+        </section>
+        <section class="youtube_video">
+            <video width="100%" height="auto" controls style="max-width: 560px; aspect-ratio: 16/9;">
+                <source src="../assets/video/The Story of Ada Lovelace_ The World's First Computer Programmer.mp4"
+                    type="video/mp4">
+                Your browser does not support video playback.
+            </video>
+        </section>
+
+        <section class="section__title">
+            <h2>Articles :</h2>
+        </section>
+        <section class="carousel">
+            <div class="carousel__container">
+                <a href="adalovelace.html" aria-label="Read the article about Ada Lovelace">
+                    <article class="card" role="article" aria-labelledby="card-title-1">
+                        <img src="../assets/img/card1.avif" alt="Illustration for the article about Ada Lovelace"
+                            loading="lazy">
+                        <div class="card__content">
+                            <h3 class="card__title" id="card-title-1">Ada Lovelace</h3>
+                            <p class="card__text">Discover the life and contributions of Ada Lovelace, a pioneer in
+                                computing.</p>
+                        </div>
+                    </article>
+                </a>
+
+                <a href="effetmatilda.html" aria-label="Read the article about the Matilda effect">
+                    <article class="card" role="article" aria-labelledby="card-title-2">
+                        <img src="../assets/img/card2.avif" alt="Illustration for the article about the Matilda effect"
+                            loading="lazy">
+                        <div class="card__content">
+                            <h3 class="card__title" id="card-title-2">The Matilda Effect</h3>
+                            <p class="card__text">Discover the implications of the Matilda effect, a historical bias
+                                that
+                                minimized the contributions of women scientists.</p>
+                        </div>
+                    </article>
+                </a>
+
+                <a href="scienceada.html" aria-label="Read the article about Ada Lovelace's science">
+                    <article class="card" role="article" aria-labelledby="card-title-3">
+                        <img src="../assets/img/card3.avif"
+                            alt="Illustration for the article about Ada Lovelace's science" loading="lazy">
+                        <div class="card__content">
+                            <h3 class="card__title" id="card-title-3">Ada's Science</h3>
+                            <p class="card__text">Discover Ada Lovelace's inventions and her impact on
+                                l'informatique moderne.</p>
+                        </div>
+                    </article>
+                </a>
+
+                <a href="theimitationgame.html" aria-label="Read the article about The Imitation Game">
+                    <article class="card" role="article" aria-labelledby="card-title-4">
+                        <img src="../assets/img/card4.avif" alt="Illustration for the article about The Imitation Game"
+                            loading="lazy">
+                        <div class="card__content">
+                            <h3 class="card__title" id="card-title-4">The Imitation Game</h3>
+                            <p class="card__text">Discover the film "The Imitation Game", which tells the story of Alan
+                                Turing and the decoding machine during World War II.</p>
+                        </div>
+                    </article>
+                </a>
+
+                <a href="litterature.html" aria-label="Read the article about Ada in literature">
+                    <article class="card" role="article" aria-labelledby="card-title-5">
+                        <img src="../assets/img/card5.avif" alt="Illustration for the article about Ada in literature"
+                            loading="lazy">
+                        <div class="card__content">
+                            <h3 class="card__title" id="card-title-5">Ada in Literature</h3>
+                            <p class="card__text">The story of Ada Lovelace has inspired numerous literary works
+                                and biographies.</p>
+                        </div>
+                    </article>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" role="contentinfo">
+        <div class="footer__left">
+            <div class="footer__logo">
+                <a href="index.html"><img src="../assets/img/logo ADA.svg" alt="Image du logo de Ada Lovelace "></a>
+            </div>
+            <div class="footer__leftelement">
+                <p>CONTACT</p>
+                <div class="footer__leftelement-text">
+                    <p>Virgile Esnaux <br> MMi1 B2 <br> virgile.esnaux@edu.univ-fcomte.fr</p>
+                </div>
+            </div>
+            <div class="footer__leftelement">
+                <p>LEGAL NOTICE</p>
+                <div class="footer__leftelement-text">
+                    <p>“project carried out in 2025 as part of an educational exercise at the MMi department of
+                        Montbéliard“</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__right">
+            <a href="glossaire.html" class="footer__rightelement">Glossary</a>
+            <a href="contact.html" class="footer__rightelement">Contact Us</a>
+            <a href="a-propos.html" class="footer__rightelement">About</a>
+            <a href="autres-projets.html" class="footer__rightelement">Other Projects</a>
+            <div class="footer__division"></div>
+            <a href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/" target="_blank"
+                class="footer__logoMMi" aria-label="Visit the MMi department website (new window)">
+                <img src="../assets/img/MMI_logo.svg" alt="MMi Logo">
+            </a>
+        </div>
+    </footer>
+    <script src="../src/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Propos</title>
+    <link rel="stylesheet" href="../src/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps&display=swap">
+</head>
+
+<body>
+    <header>
+        <section class="header_logo">
+            <div class="header_logo-block">
+                <img class="header_logo-image" src="../assets/img/Logo_header.avif" alt="Image de Ada Lovelace">
+                <div class="header_logo-composant"></div>
+                <div class="header_logo-ada">
+                    <a href="index.html"><img src="../assets/img/logo ADA.svg" alt="Image du logo de Ada Lovelace "></a>
+                </div>
+            </div>
+        </section>
+        <h1 class="header__title">About</h1>
+        <div class="language-selector" role="navigation" aria-label="Language selector">
+            <a href="/fr/" class="language-selector__link language-selector__link--active"
+                aria-label="Switch to French version">EN</a>
+        </div>
+    </header>
+
+    <nav class="menu">
+        <button class="menu__toggle" aria-label="Open menu">
+            <span class="menu__bar"></span>
+            <span class="menu__bar"></span>
+            <span class="menu__bar"></span>
+        </button>
+
+        <div class="menu__overlay" role="dialog" aria-label="Main navigation menu">
+            <ul class="menu__list" role="menu">
+                <li>
+                    <a href="index.html" class="menu__button"
+                        style="background-image: url('../assets/img/hero_page_accueil2.avif')">
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="adalovelace.html" class="menu__button"
+                        style="background-image: url('../assets/img/card1.avif')">
+                        <span>Ada Lovelace</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="effetmatilda.html" class="menu__button"
+                        style="background-image: url('../assets/img/card2.avif')">
+                        <span>The Matilda Effect</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="scienceada.html" class="menu__button"
+                        style="background-image: url('../assets/img/card3.avif')">
+                        <span>Science from Ada</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="theimitationgame.html" class="menu__button"
+                        style="background-image: url('../assets/img/card4.avif')">
+                        <span>The Imitation Game</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="litterature.html" class="menu__button"
+                        style="background-image: url('../assets/img/card5.avif')">
+                        <span>Ada in Literature</span>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="menu__footer" role="navigation" aria-label="Secondary links">
+                <a href="glossaire.html" class="menu__footer-link" aria-label="Consult the glossary">Glossary</a>
+                <a href="contact.html" class="menu__footer-link" aria-label="Access the contact form">Contact us</a>
+                <a href="a-propos.html" class="menu__footer-link" aria-label="Learn more about the project">About</a>
+                <a href="autres-projets.html" class="menu__footer-link" aria-label="Discover other projects">Other
+                    projects</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero__effet">
+                <img src="../assets/img/hero_page_Apropos.avif" alt="Hero of the about page">
+            </div>
+        </section>
+        <section class="text-blue">
+            <div class="text-blue__content">
+                <p> This site was created by Virgile Esnaux as part of a pedagogical project carried out in 2025 in the
+                    MMI department of Montbéliard.
+                    This work is part of a reflection on the Matilda effect, a historical phenomenon that reveals the
+                    tendency to minimize or render invisible the contributions of women in sciences and technologies.
+                </p>
+                <br>
+                <p>
+                    The choice of Ada Lovelace as the central subject became evident, as she perfectly embodies this
+                    struggle against oblivion: the first programmer in history and a visionary of computing, Ada
+                    Lovelace's work has long been overshadowed by that of her male counterparts. This project aims to
+                    shed light on her intellectual legacy, to better understand the issues of equality in scientific
+                    recognition, and to inspire future generations through the story of a pioneering woman.</p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" role="contentinfo">
+        <div class="footer__left">
+            <div class="footer__logo">
+                <a href="index.html"><img src="../assets/img/logo ADA.svg" alt="Image du logo de Ada Lovelace "></a>
+            </div>
+            <div class="footer__leftelement">
+                <p>CONTACT</p>
+                <div class="footer__leftelement-text">
+                    <p>Virgile Esnaux <br> MMi1 B2 <br> virgile.esnaux@edu.univ-fcomte.fr</p>
+                </div>
+            </div>
+            <div class="footer__leftelement">
+                <p>LEGAL NOTICE</p>
+                <div class="footer__leftelement-text">
+                    <p>“project carried out in 2025 as part of a pedagogical exercise in the MMi department of
+                        Montbéliard“</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__right">
+            <a href="glossaire.html" class="footer__rightelement">Glossary</a>
+            <a href="contact.html" class="footer__rightelement">Contact us</a>
+            <a href="a-propos.html" class="footer__rightelement">About</a>
+            <a href="autres-projets.html" class="footer__rightelement">Other Projects</a>
+            <div class="footer__division"></div>
+            <a href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/" target="_blank"
+                class="footer__logoMMi" aria-label="Visit the MMi department website (new window)">
+                <img src="../assets/img/MMI_logo.svg" alt="MMi Logo">
+            </a>
+        </div>
+    </footer>
+    <script src="../src/js/script.js"></script>
+</body>
+
+</html>
