@@ -1,6 +1,6 @@
 .language-selector {
     position: fixed;
-    top: calc(5.25vw + 14vw + 6px);
+    top: calc(5.25vw + 14vw + 7px);
     right: calc(5.25vw + 1.5vw + 9px);
     z-index: 1001;
     display: flex;
@@ -12,7 +12,7 @@
 .language-selector__link {
     color: var(--gray-200);
     font-family: var(--font-mono);
-    font-size: 7vw;
+    font-size: 6.5vw;
     text-decoration: none;
     transition: opacity 0.3s ease;
 }
