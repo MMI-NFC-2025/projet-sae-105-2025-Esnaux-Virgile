@@ -1,8 +1,7 @@
 .language-selector {
     position: fixed;
-    top: calc(var(--space-3xl) + 2.8rem);
-    right: var(--space-xl);
-    margin-right: var(--space-lg);
+    top: calc(5.25vw + 14vw + 6px);
+    right: calc(5.25vw + 1.5vw + 9px);
     z-index: 1001;
     display: flex;
     align-items: center;
@@ -13,7 +12,7 @@
 .language-selector__link {
     color: var(--gray-200);
     font-family: var(--font-mono);
-    font-size: var(--text-base);
+    font-size: 7vw;
     text-decoration: none;
     transition: opacity 0.3s ease;
 }

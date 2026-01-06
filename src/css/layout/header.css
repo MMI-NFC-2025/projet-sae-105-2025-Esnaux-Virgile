@@ -32,23 +32,25 @@
 
 .header_logo-ada {
     position: absolute;
-    top: var(--space-3xl);
-    left: var(--space-3xl);
+    top: 5.25vw;
+    left: 5.25vw;
     z-index: 3;
 }
 
 .header_logo-ada img {
     display: block;
+    width: 32vw;
+    height: auto;
 }
 
 .header__title {
     position: fixed;
-    top: var(--space-4xl);
+    top: 5.25vh;
     left: 65%;
     transform: translateX(-50%);
     z-index: 101;
     font-family: var(--font-important);
-    font-size: var(--text-xl);
+    font-size: 8.75vw;
     color: var(--gray-200);
     margin: 0;
     font-weight: normal;
@@ -56,13 +58,12 @@
 
 .header__minititle {
     position: fixed;
-    top: var(--space-3xl);
+    top: 5.25vh;
     left: 65%;
-    top: var(--space-4xl);
     transform: translateX(-50%);
     z-index: 101;
     font-family: var(--font-important);
-    font-size: var(--text-base);
+    font-size: 7vw;
     color: var(--gray-200);
     margin: 0;
     font-weight: normal;
