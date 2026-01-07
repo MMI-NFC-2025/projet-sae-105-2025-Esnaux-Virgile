@@ -90,6 +90,7 @@ a:focus {
     font-family: var(--font-mono);
     font-size: var(--text-sm);
     line-height: 1.2;
+    padding-right: var(--space-lg);
     margin-bottom: var(--space-3xl);
     font-weight: lighter;
 }
