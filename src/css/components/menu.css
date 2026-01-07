@@ -198,3 +198,28 @@ body.menu-open {
 .menu__footer-link:hover {
     color: var(--lightblue);
 }
+
+/* Images de fond pour les boutons du menu */
+.menu__button--home {
+    background-image: url('/assets/img/hero_page_accueil2.avif');
+}
+
+.menu__button--ada {
+    background-image: url('/assets/img/card1.avif');
+}
+
+.menu__button--matilda {
+    background-image: url('/assets/img/card2.avif');
+}
+
+.menu__button--science {
+    background-image: url('/assets/img/card3.avif');
+}
+
+.menu__button--imitation {
+    background-image: url('/assets/img/card4.avif');
+}
+
+.menu__button--literature {
+    background-image: url('/assets/img/card5.avif');
+}
