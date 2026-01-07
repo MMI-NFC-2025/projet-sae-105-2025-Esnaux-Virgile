@@ -248,8 +248,8 @@
     font-weight: lighter;
 }
 
-.text-blue {
-    background-color: var(--lightblue);
+.text-navyblue {
+    background-color: var(--navyblue);
     font-family: var(--font-mono);
     font-size: var(--space-xl);
     line-height: 1.3;
