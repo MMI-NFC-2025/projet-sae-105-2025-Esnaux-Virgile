@@ -3,8 +3,8 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
-- URL du site :
-- URL FIGMA :
+- NOM : Esnaux
+- PRÉNOM : Virgile
+- GROUPE : MMi1 B2
+- URL du site : https://projet-effetmatilda.netlify.app/fr/
+- URL FIGMA : https://www.figma.com/design/RwUpSAYBu961iOyZMJftdb/Maquettes-projet-individuel-%E2%80%94-Virgile-Esnaux?node-id=3701-148&t=igL8kyXJhb1O2biQ-1

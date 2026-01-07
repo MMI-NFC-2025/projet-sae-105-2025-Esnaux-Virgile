@@ -268,14 +268,6 @@
     padding-top: var(--space-2xl);
 }
 
-.hero--glossaire {
-    padding-top: 6rem;
-}
-
-.hero--contact {
-    padding-top: 1rem;
-}
-
 .projects-container {
     padding: var(--space-3xl) var(--space-lg);
 }
