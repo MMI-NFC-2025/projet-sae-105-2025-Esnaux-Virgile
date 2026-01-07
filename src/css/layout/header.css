@@ -45,21 +45,8 @@
 
 .header__title {
     position: fixed;
-    top: 5.25vh;
-    left: 65%;
-    transform: translateX(-50%);
-    z-index: 101;
-    font-family: var(--font-important);
-    font-size: 8.75vw;
-    color: var(--gray-200);
-    margin: 0;
-    font-weight: normal;
-}
-
-.header__minititle {
-    position: fixed;
     top: var(--space-lg);
-    left: 65%;
+    left: 60%;
     transform: translateX(-50%);
     z-index: 101;
     font-family: var(--font-important);
