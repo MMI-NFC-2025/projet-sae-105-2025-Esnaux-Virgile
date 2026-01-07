@@ -131,6 +131,22 @@ a:focus {
     margin-bottom: var(--space-sm);
 }
 
+.external-link {
+    padding-left: var(--space-lg);
+    padding-bottom: var(--space-2xl);
+}
+
+.external-link__button {
+    color: #000000;
+    text-decoration: underline;
+    font-family: var(--font-mono);
+    font-size: var(--text-sm);
+}
+
+.external-link__button:hover {
+    opacity: 0.8;
+}
+
 .text__main {
     padding-left: var(--space-lg);
 }
